@@ -103,9 +103,11 @@ To run the solution, you need to provide a few extra arguments.
 And now the complete command:
 
 ```sh
-./advent_of_code_go_template --day x --input path_to_input --mode 1
-# or
-go run . --day x --input path_to_input --mode 1
+go run . --day 02 --input ./years/2023/day_02/input_1_test.txt --mode 1 --year 2023
+```
+
+```sh
+go run . --day 02 --input ./years/2023/day_02/input_2_test.txt --mode 2 --year 2023
 ```
 
 ## Contribution

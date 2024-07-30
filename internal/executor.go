@@ -1,36 +1,36 @@
 package internal
 
 import (
-	"github.com/wlchs/advent_of_code_go_template/days/day_0"
-	"github.com/wlchs/advent_of_code_go_template/days/day_01"
-	"github.com/wlchs/advent_of_code_go_template/days/day_02"
-	"github.com/wlchs/advent_of_code_go_template/days/day_03"
-	"github.com/wlchs/advent_of_code_go_template/days/day_04"
-	"github.com/wlchs/advent_of_code_go_template/days/day_05"
-	"github.com/wlchs/advent_of_code_go_template/days/day_06"
-	"github.com/wlchs/advent_of_code_go_template/days/day_07"
-	"github.com/wlchs/advent_of_code_go_template/days/day_08"
-	"github.com/wlchs/advent_of_code_go_template/days/day_09"
-	"github.com/wlchs/advent_of_code_go_template/days/day_10"
-	"github.com/wlchs/advent_of_code_go_template/days/day_11"
-	"github.com/wlchs/advent_of_code_go_template/days/day_12"
-	"github.com/wlchs/advent_of_code_go_template/days/day_13"
-	"github.com/wlchs/advent_of_code_go_template/days/day_14"
-	"github.com/wlchs/advent_of_code_go_template/days/day_15"
-	"github.com/wlchs/advent_of_code_go_template/days/day_16"
-	"github.com/wlchs/advent_of_code_go_template/days/day_17"
-	"github.com/wlchs/advent_of_code_go_template/days/day_18"
-	"github.com/wlchs/advent_of_code_go_template/days/day_19"
-	"github.com/wlchs/advent_of_code_go_template/days/day_20"
-	"github.com/wlchs/advent_of_code_go_template/days/day_21"
-	"github.com/wlchs/advent_of_code_go_template/days/day_22"
-	"github.com/wlchs/advent_of_code_go_template/days/day_23"
-	"github.com/wlchs/advent_of_code_go_template/days/day_24"
-	"github.com/wlchs/advent_of_code_go_template/days/day_25"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_0"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_01"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_02"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_03"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_04"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_05"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_06"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_07"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_08"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_09"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_10"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_11"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_12"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_13"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_14"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_15"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_16"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_17"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_18"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_19"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_20"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_21"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_22"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_23"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_24"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_25"
 )
 
 // RunChallenge executes the challenge of a specific day with the provided input.
-func RunChallenge(day int, inputPath string, mode int) {
+func RunChallenge(year int, day int, inputPath string, mode int) {
 	input := LoadInputLines(inputPath)
 	mapping := map[int]func([]string, int){
 		0:  day_0.Run,
