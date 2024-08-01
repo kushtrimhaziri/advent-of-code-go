@@ -61,11 +61,11 @@ To run the solution, you need to provide a few extra arguments.
 And now the complete command:
 
 ```sh
-go run . --day 01 --input ./years/2015/day_01/input_1_test.txt --mode 1 --year 2015
+go run . --day 01 --input ./years/2019/day_01/input_1_test.txt --mode 1 
 ```
 
 ```sh
-go run . --day 02 --input ./years/2015/day_01/input_2_test.txt --mode 2 --year 2023
+go run . --day 01 --input ./years/2019/day_01/input_1_test.txt --mode 2
 ```
 
 ## Contribution

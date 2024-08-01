@@ -16,7 +16,6 @@ import (
 // - 2: only the second part
 // - 3 or empty: both parts
 func main() {
-	y := flag.String("year", "", "year ID to execute")
 	d := flag.String("day", "", "day ID to execute")
 	i := flag.String("input", "", "input file path")
 	m := flag.String("mode", "3", "running mode")
@@ -27,11 +26,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	year, err := strconv.Atoi(*y)
-	if err != nil {
-		fmt.Println("couldn't parse year")
-		os.Exit(1)
-	}
 	day, err := strconv.Atoi(*d)
 	if err != nil {
 		fmt.Println("couldn't parse day")
@@ -45,5 +39,5 @@ func main() {
 	}
 
 	inputPath := *i
-	internal.RunChallenge(year, day, inputPath, mode)
+	internal.RunChallenge(day, inputPath, mode)
 }
