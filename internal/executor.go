@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"github.com/kushtrimhaziri/advent_of_code_go/years/2019/day_01"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2022/day_01"
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_0"
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_02"
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_03"
