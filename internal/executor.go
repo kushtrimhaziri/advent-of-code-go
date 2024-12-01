@@ -1,9 +1,9 @@
 package internal
 
 import (
-	"github.com/kushtrimhaziri/advent_of_code_go/years/2015/day_01"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2017/day_01"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_0"
-	"github.com/kushtrimhaziri/advent_of_code_go/years/2015/day_02"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2017/day_02"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_03"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_04"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_05"
