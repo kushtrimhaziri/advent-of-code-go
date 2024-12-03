@@ -61,7 +61,7 @@ To run the solution, you need to provide a few extra arguments.
 And now the complete command:
 
 ```sh
-go run . --day 01 --input ./years/2015/day_01/input_1_test.txt --mode 1 
+go run . --day 03 --input ./years/2024/day_03/input_1_test.txt --mode 2
 ```
 
 ```sh
