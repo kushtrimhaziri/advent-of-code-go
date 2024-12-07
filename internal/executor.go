@@ -1,9 +1,7 @@
 package internal
 
 import (
-	//"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_01"
-	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_0"
-	//"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_02"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_02"
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_03"
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_04"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_05"
@@ -34,6 +32,7 @@ func RunChallenge(day int, inputPath string, mode int) {
 	inputFirstinputLine := LoadInputLines(inputPath)
 
 	mappingForFirstLine := map[int]func([]string, int){
+		2: day_02.Run,
 		3: day_03.Run,
 		4: day_04.Run,
 	}
