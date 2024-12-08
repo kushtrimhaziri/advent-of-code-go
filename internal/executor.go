@@ -4,10 +4,11 @@ import (
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_02"
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_03"
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_04"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_08"
+
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_05"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_06"
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_07"
-	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_08"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_09"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_10"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_11"
@@ -36,6 +37,7 @@ func RunChallenge(day int, inputPath string, mode int) {
 		3: day_03.Run,
 		4: day_04.Run,
 		7: day_07.Run,
+		8: day_08.Run,
 	}
 	//input := LoadInputLines(inputPath)
 	//mapping := map[int]func([]string, int){
