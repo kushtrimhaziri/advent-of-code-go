@@ -5,6 +5,7 @@ import (
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_03"
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_04"
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_08"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_10"
 
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_05"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_06"
@@ -38,6 +39,7 @@ func RunChallenge(day int, inputPath string, mode int) {
 		4:  day_04.Run,
 		7:  day_07.Run,
 		8:  day_08.Run,
+		10: day_10.Run,
 		11: day_11.Run,
 	}
 	//input := LoadInputLines(inputPath)
