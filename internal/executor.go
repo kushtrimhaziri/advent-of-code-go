@@ -6,6 +6,7 @@ import (
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_04"
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_08"
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_10"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_13"
 
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_05"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_06"
@@ -13,8 +14,6 @@ import (
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_09"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_10"
 	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_11"
-	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_12"
-	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_13"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_14"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_15"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_16"
@@ -41,6 +40,7 @@ func RunChallenge(day int, inputPath string, mode int) {
 		8:  day_08.Run,
 		10: day_10.Run,
 		11: day_11.Run,
+		13: day_13.Run,
 	}
 	//input := LoadInputLines(inputPath)
 	//mapping := map[int]func([]string, int){

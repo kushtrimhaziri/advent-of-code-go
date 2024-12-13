@@ -5,15 +5,22 @@ import (
 	"math/big"
 	"strconv"
 	"strings"
+	"time"
 )
 
 // Run function of the daily challenge
 func Run(input []string, mode int) {
 	if mode == 1 || mode == 3 {
-		fmt.Printf("Part one: %v\n", Part1(input))
+		start := time.Now()
+		result := Part1(input)
+		duration := time.Since(start)
+		fmt.Printf("Part one: %v (took %v)\n", result, duration)
 	}
 	if mode == 2 || mode == 3 {
-		fmt.Printf("Part two: %v\n", Part2(input))
+		start := time.Now()
+		result := Part2(input)
+		duration := time.Since(start)
+		fmt.Printf("Part two: %v (took %v)\n", result, duration)
 	}
 }
 
