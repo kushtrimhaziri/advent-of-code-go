@@ -25,7 +25,7 @@ import (
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_22"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_23"
 	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_24"
-	//"github.com/kushtrimhaziri/advent_of_code_go/years/2023/day_25"
+	"github.com/kushtrimhaziri/advent_of_code_go/years/2024/day_25"
 )
 
 // RunChallenge executes the challenge of a specific day with the provided input.
@@ -41,6 +41,7 @@ func RunChallenge(day int, inputPath string, mode int) {
 		10: day_10.Run,
 		11: day_11.Run,
 		13: day_13.Run,
+		25: day_25.Run,
 	}
 	//input := LoadInputLines(inputPath)
 	//mapping := map[int]func([]string, int){
